@@ -64,8 +64,6 @@ function ReservationForm() {
                     <option value="17:00">5:00 pm</option>
                     <option value="18:00">6:00 pm</option>
                     <option value="19:00">7:00 pm</option>
-                    <option value="20:00">8:00 pm</option>
-                    <option value="21:00">9:00 pm</option>
                 </select>
             </div>
             <button type="submit" className="btn btn-dark">Submit</button>
