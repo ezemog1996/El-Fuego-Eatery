@@ -18,7 +18,7 @@ app.use(routes);
 
 // Connect to the Mongo DB
 mongoose.connect(
-  process.env.MONGODB_URI || "mongodb://localhost:27017/restaurant_reservations", //unique db name
+  process.env["mongodb+srv://ezemog1996:<password>@egcluster.xzvhm.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"] || "mongodb://localhost:27017/restaurant_reservations", //unique db name
   {
     useCreateIndex: true,
     useNewUrlParser: true,
