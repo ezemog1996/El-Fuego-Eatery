@@ -53,7 +53,7 @@ function Admin() {
                     <tbody>
                         {
                             reservations.map(item => (
-                                <ReservationRows reservation={item}/>
+                                <ReservationRows key={item._id} reservation={item}/>
                             ))
                         }
                     </tbody>

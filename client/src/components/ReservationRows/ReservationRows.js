@@ -9,7 +9,7 @@ function ReservationRows({ reservation }) {
     }
 
     return (
-        <tr key={reservation._id}>
+        <tr>
         <th scope="row">{reservation._id}</th>
         <td>{reservation.name}</td>
         <td>{reservation.party}</td>
