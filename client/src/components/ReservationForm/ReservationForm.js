@@ -30,7 +30,7 @@ function ReservationForm() {
             API.reserve({
                 name: reservation.name,
                 party: reservation.party,
-                reservation: `${reservation.date} ${reservation.time}`
+                reservation: `${reservation.date} ${(parseInt(reservation.time) + 5)}:00`
             })
         } else {
             console.log("it didnt work")
