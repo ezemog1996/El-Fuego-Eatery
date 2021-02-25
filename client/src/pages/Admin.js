@@ -14,7 +14,7 @@ function Admin() {
             .then(res => {
                 res.data.forEach(item => {
                     item.formatReservation = new Date(Date.parse(item.reservation));
-                    item.formatReservationString = `${item.reservation}`;
+                    item.formatReservationString = `${item.formatReservation}`;
                     console.log(item.formatReservation);
                     // const correctReservation = new Date(formatReservation.setHours(formatReservation.getHours() - 5));
                     // console.log(correctReservation);
