@@ -31,7 +31,11 @@ function ReservationForm() {
                 name: reservation.name,
                 party: reservation.party,
                 reservation: `${reservation.date} ${parseInt(reservation.time) + 5}:00`
-            })
+            }).then(() => setReservation({name: "",
+                party: 0,
+                date: "",
+                time: ""
+            }))
         } else {
             console.log("it didnt work")
         }
