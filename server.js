@@ -18,7 +18,7 @@ app.use(routes);
 
 // Connect to the Mongo DB
 mongoose.connect(
-  "mongodb+srv://ezemog1996:!UCSD_fall@2020!@egcluster.xzvhm.mongodb.net/myFirstDatabase?retryWrites=true&w=majority" || "mongodb://localhost:27017/restaurant_reservations", //unique db name
+  "mongodb+srv://ezemog1996:!UCSD_fall@2020!@egcluster.xzvhm.mongodb.net/myFirstDatabase?retryWrites=true&w=majority/restaurant_reservations" || "mongodb://localhost:27017/restaurant_reservations", //unique db name
   {
     useCreateIndex: true,
     useNewUrlParser: true,
