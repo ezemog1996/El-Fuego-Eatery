@@ -35,7 +35,7 @@ function Admin() {
     }
 
     return (
-        <div className="container py-4 px-5" style={{'backgroundColor': 'white'}}>
+        <div className="container py-4 px-5">
             <h1 className="row d-flex justify-content-center" style={{"fontSize": "5rem"}}>Reservations for today</h1>
             <main className="row">
                 <table className="table">

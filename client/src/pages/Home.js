@@ -7,7 +7,7 @@ import Footer from "../components/Footer/Footer.js";
 
 function Home() {
     return (
-        <div className="container py-4 px-5" style={{'backgroundColor': 'white'}}>
+        <div className="container py-4 px-5">
             <h1 className="row d-flex justify-content-center" style={{"fontSize": "5rem"}}>El Fuego Eatery</h1>
             <main className="row">
                 <ReservationForm />

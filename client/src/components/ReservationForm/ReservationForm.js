@@ -31,7 +31,7 @@ function ReservationForm() {
                 name: reservation.name,
                 party: reservation.party,
                 reservation: `${reservation.date} ${parseInt(reservation.time) + 5}:00`
-            }).then(() => window.location.reload())
+            })
         } else {
             console.log("it didnt work")
         }
