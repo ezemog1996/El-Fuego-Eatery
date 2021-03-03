@@ -1,4 +1,3 @@
-require("dotenv").config();
 const express = require("express");
 
 const mongoose = require("mongoose");
@@ -19,7 +18,7 @@ app.use(routes);
 
 // Connect to the Mongo DB
 mongoose.connect(
-  process.env.mongoSecret, //unique db name
+  "mongodb+srv://ezemog1996:gomez1996@egcluster.xzvhm.mongodb.net/myFirstDatabase?retryWrites=true&w=majority", //unique db name
   {
     useCreateIndex: true,
     useNewUrlParser: true,
