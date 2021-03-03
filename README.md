@@ -4,17 +4,17 @@ Link to App: https://ezemog1996.github.io/El Fuego Eatery/
 
 ## Table of Contents
 
-[Description](https://github.com/ezemog1996/El Fuego Eatery#description)
+[Description](https://github.com/ezemog1996/El-Fuego-Eatery#description)
 
-[Installation](https://github.com/ezemog1996/El Fuego Eatery#installation)
+[Installation](https://github.com/ezemog1996/El-Fuego-Eatery#installation)
 
-[Usage](https://github.com/ezemog1996/El Fuego Eatery#usage)
+[Usage](https://github.com/ezemog1996/El-Fuego-Eatery#usage)
 
-[Tests](https://github.com/ezemog1996/El Fuego Eatery#tests)
+[Tests](https://github.com/ezemog1996/El-Fuego-Eatery#tests)
 
-[License](https://github.com/ezemog1996/El Fuego Eatery#license)
+[License](https://github.com/ezemog1996/El-Fuego-Eatery#license)
 
-[Questions](https://github.com/ezemog1996/El Fuego Eatery#questions)
+[Questions](https://github.com/ezemog1996/El-Fuego-Eatery#questions)
 
 ### Description
 
