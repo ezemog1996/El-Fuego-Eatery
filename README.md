@@ -41,7 +41,7 @@ Go to the reservation page, fill out the form, and click submit. Your reservatio
 
                 MIT License
 
-                Copyright (c) 2020 Enrique Gomez
+                Copyright (c) 2021 Enrique Gomez
                 
                 Permission is hereby granted, free of charge, to any person obtaining a copy
                 of this software and associated documentation files (the "Software"), to deal
